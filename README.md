@@ -1,24 +1,26 @@
 # Timeline Photos
-## An iPhone app which allows you to post photos to your Facebook Timeline at the correct location in time.
+**An iPhone app which allows you to post photos to your Facebook Timeline at the correct location in time.**
 
-### Discussion
+![image](http://iamjo.sh/github-images/timeline_photos/1.png)![image](http://iamjo.sh/github-images/timeline_photos/2.png)
+
+## Discussion
 This relies on the [libTPTimelineUpload](https://github.com/joshavant/libTPTimelineUpload) library, which is an unofficial interface to Facebook's Timeline. **Facebook could break this library at any time, which would also break this app.**
 
 To bypass the login flow, such as for debugging, comment `[self switchToLoginNavController]` and uncomment `[self switchToUserNavController]` within `application:didFinishLaunchingWithOptions:` inside `TPAppDelegate.m`.
 
-### Compatibility
+## Compatibility
 * iOS 4.3+ w/ ARC
 * Xcode 4.x
 
 **Contributions, corrections, and improvements are always appreciated!**
 
-### Created By
+## Created By
 Josh Avant
 
-### Copyright
+## Copyright
 [Hipster, Inc.](http://www.hipster.com)
 
-### License
+## License
 This is licensed under a BSD License:
 
     Created by Josh Avant
